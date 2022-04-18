@@ -1,0 +1,62 @@
+/* background-image: url(/templates/user/default/css/images/bg.jpg); */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+body{
+   
+    background: rgba(0,0,0,.7) url(./1_0iPByX_QPAt-b_hQOuINfw.png);
+    background-size: cover;
+    background-blend-mode: darken;
+}
+.box-one{
+    width: 400px;
+    height: 500px;
+    background-color: rgba(255, 255, 255, 0.445);
+    backdrop-filter: blur(4px);
+    margin: 0 auto;
+    border-radius: 25px;
+
+}
+#input{
+    width: 300px;
+    position: relative;
+    left: -35px;
+   font-size: 40px;
+   background-color: rgba(255, 255, 255, 0.527);
+}
+.input{
+   width: 215px;
+   height: 25px;
+   position: relative;
+   top: 50px;
+   left: -8px;
+   margin: 0 auto;
+   margin-top: 150px;
+ 
+
+   
+}
+.btn{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin-top: 130px;
+    margin-left: 35px;
+}
+.btn>button{
+    width: 60px;
+    height: 60px;
+    margin-top: 15px;
+    border-radius: 50%;
+    outline: none;
+    border: 0;
+    cursor: pointer;
+   font-size: 20px;
+   font-weight: bold;
+   background-color: rgba(255, 255, 255, 0.219);
+
+}
